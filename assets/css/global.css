@@ -3,16 +3,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f6f8fc;
+body{
+    background-color: #eeeeee
+}
+.content {
+    height: 100%;
+    padding: 1rem;
+    background-image:url(../356e5958b76d454192b63bffbd518978.jpg);
+    position: relative;
 }
 
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
-}
 
 @media screen and (min-width: 992px) {
     .content {
@@ -22,3 +22,4 @@ body {
         border-radius: 1rem;
     }
 }
+
